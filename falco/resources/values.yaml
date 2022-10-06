@@ -12,8 +12,8 @@ falco:
     fakeEventGenerator:
       enabled: false
     driver:
-      enabled: false
-
+      enabled: true
+      kind: ebpf
     collectors:
       enabled: false
     services:
