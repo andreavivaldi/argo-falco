@@ -13,7 +13,7 @@ spec:
   revisionHistoryLimit: 1
   source:
     path: argo-events/resources
-    repoURL: https://github.com/Issif/argo-falco.git
+    repoURL: https://github.com/andreavivaldi/argo-falco.git
     targetRevision: master
   syncPolicy:
     automated:
