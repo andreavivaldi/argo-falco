@@ -16,10 +16,6 @@ falco:
 
     collectors:
       enabled: false
-
-    controller:
-      kind: deployment
-
     services:
       - name: k8saudit-webhook
         type: NodePort
@@ -27,7 +23,6 @@ falco:
           - port: 9765 # See plugin open_params
             nodePort: 30007
             protocol: TCP
-
     falco:
       plugins:
         - name: k8saudit
